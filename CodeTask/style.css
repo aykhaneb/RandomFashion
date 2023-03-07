@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    position: sticky;
+  
+}
+.free{
+    background-color: #000000;
+}
+.free p{
+    color: #fff;
+    padding: 13px;
+    text-align: center;
+    font-size: 18px;
+}
+.contain{
+    padding: 0 7rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000000;
+}
+.icons i{
+    font-size: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+span{
+    position: absolute;
+    bottom: -15px;
+    right: -8px;
+}
+.all{
+    background-image: url(https://cdn.shopify.com/s/files/1/0575/5577/9765/files/s3_1920x.jpg?v=1624431911);
+    background-position: center;
+    background-size: cover;
+   padding: 20rem 0;
+}
+.text{
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    font-style: italic;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.button{
+    text-align: center;
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    margin-top: 60px;
+  
+}
+.button a{
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+    background-color: #fff;
+    padding: 10px 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    
+    transition: .5s;
+    transform: skew(-23deg);
+}
+.button a:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.button span{
+    transform: skew(23deg);
+    position: static;
+    display: inline-block;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box{
+    width: 25%;
+     overflow: hidden;
+}
+.box img{
+    width: 100%;
+    border: 1px solid #F6F6F9;
+    vertical-align: bottom;
+    transition: .5s;
+   
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+@media (max-width:576px) {
+    .first{
+        display: none;
+    }
+    .free{
+        display: none;
+    }
+    .box{
+        width: 50%;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text h3{
+        font-size: 20px;
+    }
+    .all{
+        padding: 8rem 0;
+    }
+}
+.input{
+    border: 1px solid #000000;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px 20px;
+    
+}
+.input input{
+    border: 0 solid;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
